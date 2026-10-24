@@ -30,9 +30,11 @@ GitHub Actions runs tests, rebuilds the scene, and deploys only `dist/` to GitHu
 Pages on every push to `main`. The workflow can also be started manually. Website
 source and game source have separate repositories.
 
-The intended custom domain is **hexdrones.ai**. Domain registration, DNS and the
-custom domain setting must be completed before it can serve this site. The Pages
-workflow does not change DNS or purchase domains.
+The custom domain is **hexdrones.ai**, registered and managed through Cloudflare.
+GitHub Pages hosts the website; Cloudflare supplies DNS. The `www` hostname
+redirects to the root domain. See [hosting configuration](docs/hosting.md) for
+DNS records and HTTPS verification. The Pages workflow does not change DNS or
+purchase domains.
 
 ## Rights and notices
 
