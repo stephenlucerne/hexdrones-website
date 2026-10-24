@@ -1,0 +1,15 @@
+Gameclaw Studio logo — project-specific permission record
+Asset: dist/assets/gameclaw-logo.png
+Source: Gameclaw_Logo.png supplied directly by the project owner on 2026-10-24.
+Rightsholder: Gameclaw, identified by the requesting user as their company.
+Public licence/version: none published; unversioned owner-supplied PNG.
+
+The owner instructed: "use this logo instead that i attached".
+The owner approved the completed teaser: "yep this is perfect" and requested:
+"purchase the hexdrones.ai domain and then create a new repo for hexdrones
+website, and then set it up to be hosted with github pages."
+
+This authorizes use of the supplied logo in this Gameclaw website and its
+publication. ALLOWED — subject to the recorded obligations: preserve Gameclaw
+ownership; no general redistribution licence or wider endorsement is granted.
+The supplied PNG is preserved unmodified.

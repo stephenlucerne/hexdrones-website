@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#151a22">
+  <meta name="description" content="HEXDRONES. Awaiting further instructions. A game in development at Gameclaw Studio. More information coming soon.">
+  <title>HEXDRONES — Coming soon</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/outfit-bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="assets/world-models.js" defer></script>
+  <script src="swarm.js" defer></script>
+  <script src="scene.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#studio">Skip to studio information</a>
+  <header class="site-header">
+    <a class="wordmark" href="#" aria-label="HEXDRONES home"><svg viewBox="0 0 34 38" aria-hidden="true"><path d="M17 2 32 10.5v17L17 36 2 27.5v-17Z"/></svg>HEXDRONES</a>
+    <p class="release-status"><span class="signal" aria-hidden="true"></span>COMING SOON</p>
+  </header>
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="terrain" id="terrain" role="group" tabindex="0" aria-label="Interactive savannah. Move your cursor or tap to direct the drones. Arrow keys move their destination; Space pauses the scene." aria-describedby="scene-instructions">
+        <canvas id="world" aria-hidden="true"></canvas>
+        <p class="scene-fallback" id="scene-fallback" hidden>The interactive scene needs WebGL 2. <a href="#studio">More information below ↓</a></p>
+      </div>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span class="signal" aria-hidden="true"></span> SIGNAL STILL ACTIVE</p>
+        <h1 id="hero-title">HEXDRONES</h1>
+        <p class="directive">Awaiting further instructions.</p>
+      </div>
+      <p class="interaction-hint" aria-hidden="true">MOVE TO DIRECT THE SWARM</p>
+      <p class="sr-only" id="scene-instructions">Move your cursor or tap the terrain to direct the drones around the rocks. One drone joins every ten active seconds, up to twenty. Use Pause to stop movement and arrivals, or Reset to begin again.</p>
+      <div class="scene-controls" aria-label="Scene controls">
+        <span class="swarm-count" id="swarm-count" aria-label="Drones in scene">01 / 20</span>
+        <button id="pause" type="button" aria-pressed="false" aria-label="Pause swarm" title="Pause swarm">Ⅱ</button>
+        <button id="reset" type="button" aria-label="Reset swarm" title="Reset swarm">↺</button>
+      </div>
+      <span class="sr-only" id="swarm-status" role="status" aria-live="polite">Swarm ready</span>
+    </section>
+    <div class="scroll-cue"><a href="#studio" aria-label="Scroll down to Gameclaw"><svg viewBox="0 0 24 36" aria-hidden="true"><path d="M12 2v29m-8-8 8 8 8-8"/></svg></a></div>
+    <section class="studio" id="studio" aria-labelledby="studio-title">
+      <h2 id="studio-title">A GAME IN DEVELOPMENT AT</h2>
+      <a class="studio-logo" href="https://gameclaw.io" target="_blank" rel="noopener" aria-label="Visit Gameclaw Studio"><img src="assets/gameclaw-logo.png" width="1920" height="1080" alt="Gameclaw Studio"></a>
+      <span class="studio-rule" aria-hidden="true"></span>
+      <p>More information coming soon.</p>
+    </section>
+  </main>
+</body>
+</html>

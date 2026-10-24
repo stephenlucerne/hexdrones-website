@@ -1,0 +1,4 @@
+art-source/frames/
+.DS_Store
+*.tar.gz
+node_modules/

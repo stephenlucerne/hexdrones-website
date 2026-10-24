@@ -1,0 +1,23 @@
+HEXDRONES website — third-party notices
+
+Outfit Regular and Bold
+Copyright 2021 The Outfit Project Authors
+https://github.com/Outfitio/Outfit-Fonts
+SIL Open Font License, Version 1.1. See OFL.txt for the complete licence.
+
+Three.js 0.180.0
+Copyright 2010-2025 three.js authors
+MIT License. See three-LICENSE.txt for the complete licence.
+https://github.com/mrdoob/three.js/tree/r180
+
+esbuild 0.25.10 (build tooling only)
+Copyright (c) 2020 Evan Wallace
+MIT License. See esbuild-LICENSE.txt for the complete licence.
+https://github.com/evanw/esbuild/tree/v0.25.10
+
+Gameclaw Studio logo (user-supplied PNG)
+Source: Gameclaw_Logo.png supplied by the project owner on 2026-10-24.
+See Gameclaw-permission.txt for the owner's project-specific publication permission scope.
+
+Savannah scenery, worker model, and geometric illustrations:
+project-created HEXDRONES assets, used for this authorized website.
